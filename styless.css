@@ -1,0 +1,162 @@
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #d4cdcd;
+    color: #333;
+}
+
+/* En-tête */
+.header {
+    background-color: #5e5c5c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Utilisation d'une police personnalisée pour certains éléments */
+#me {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px; /* Taille de la police, modifie selon tes besoins */
+    font-weight: bold; /* Gras, si nécessaire */
+    color: #630000; /* Couleur de texte, modifie selon tes besoins */
+}
+
+.texte-important {
+    font-family: 'Georgia', serif; /* Changement de la police pour le texte important */
+    font-size: 18px;
+}
+
+/* Titre de portfolio */
+#portfolio-title {
+    text-align: center; /* Centre le texte */
+    font-size: 48px; /* Taille du texte (modifiable selon ta préférence) */
+    color: #FF6347; /* Couleur du texte (modifiable) */
+    font-family: 'Patrick Hand', cursive; /* Applique la police manuscrite */
+    margin-bottom: 40px; /* Ajoute un espace sous le titre */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #776868;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Conteneur de projets */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Style pour chaque projet individuel */
+.project-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Sections générales */
+.section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section Compétences */
+#competences {
+    border-bottom: 2px solid #4d0b0b; /* Bordure inférieure pour séparer visuellement */
+    padding-bottom: 40px; /* Ajoute de l'espace sous la section */
+    margin-bottom: 40px; /* Espace entre la section Compétences et la suivante */
+}
+
+#competences h2 {
+    text-align: center; /* Centre le titre */
+    font-size: 36px;
+    color: #a73434;
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les catégories de compétences */
+    gap: 20px; /* Espace entre les catégories */
+}
+
+.skill-category {
+    flex: 1 1 200px; /* Chaque catégorie prend un minimum de 200px, mais peut s'étendre */
+    text-align: center;
+}
+
+/* Section Parcours */
+#parcours {
+    padding-top: 40px; /* Espace au-dessus de la section */
+    margin-bottom: 40px; /* Espace entre la section Parcours et la suivante */
+}
+
+#parcours h2 {
+    text-align: center; /* Centre le titre */
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+.timeline {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item {
+    margin-bottom: 20px; /* Espacement entre les éléments de la timeline */
+}
+
+/* Section Contact */
+#contact {
+    padding-top: 40px; /* Espace au-dessus de la section */
+}
+
+#contact h2 {
+    text-align: center; /* Centre le titre */
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    color: white;
+    margin-top: 20px;
+}
